@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -27,39 +27,39 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -74,55 +74,55 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -131,115 +131,115 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
 <text x="60.325" y="-8.89" size="1.778" layer="51" font="vector" ratio="15">Toni Klopfenstein</text>
-<text x="2.54" y="158.75" size="6.4516" layer="21" font="vector" ratio="15">A</text>
-<text x="13.97" y="158.75" size="6.4516" layer="21" font="vector" ratio="15">A</text>
-<text x="25.4" y="158.75" size="6.4516" layer="21" font="vector" ratio="15">A</text>
-<text x="36.83" y="158.75" size="6.4516" layer="21" font="vector" ratio="15">A</text>
-<text x="48.26" y="158.75" size="6.4516" layer="21" font="vector" ratio="15">A</text>
-<text x="59.69" y="158.75" size="6.4516" layer="21" font="vector" ratio="15">A</text>
-<text x="71.12" y="158.75" size="6.4516" layer="21" font="vector" ratio="15">A</text>
-<text x="82.55" y="158.75" size="6.4516" layer="21" font="vector" ratio="15">A</text>
-<text x="93.98" y="158.75" size="6.4516" layer="21" font="vector" ratio="15">A</text>
-<text x="106.045" y="158.75" size="6.4516" layer="21" font="vector" ratio="15">B</text>
-<text x="3.175" y="141.605" size="6.4516" layer="21" font="vector" ratio="15">B</text>
-<text x="13.97" y="141.605" size="6.4516" layer="21" font="vector" ratio="15">C</text>
-<text x="25.4" y="141.605" size="6.4516" layer="21" font="vector" ratio="15">C</text>
-<text x="36.83" y="141.605" size="6.4516" layer="21" font="vector" ratio="15">D</text>
-<text x="48.26" y="141.605" size="6.4516" layer="21" font="vector" ratio="15">D</text>
-<text x="59.69" y="141.605" size="6.4516" layer="21" font="vector" ratio="15">D</text>
-<text x="71.12" y="141.605" size="6.4516" layer="21" font="vector" ratio="15">D</text>
-<text x="83.185" y="141.605" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="94.615" y="141.605" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="106.045" y="141.605" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="3.175" y="124.46" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="14.605" y="124.46" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="26.035" y="124.46" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="37.465" y="124.46" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="48.895" y="124.46" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="60.325" y="124.46" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="71.755" y="124.46" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="83.185" y="124.46" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="94.615" y="124.46" size="6.4516" layer="21" font="vector" ratio="15">E</text>
-<text x="106.045" y="124.46" size="6.4516" layer="21" font="vector" ratio="15">F</text>
-<text x="3.175" y="107.315" size="6.4516" layer="21" font="vector" ratio="15">F</text>
-<text x="14.605" y="107.315" size="6.4516" layer="21" font="vector" ratio="15">G</text>
-<text x="26.035" y="107.315" size="6.4516" layer="21" font="vector" ratio="15">G</text>
-<text x="37.465" y="107.315" size="6.4516" layer="21" font="vector" ratio="15">G</text>
-<text x="48.26" y="107.95" size="6.4516" layer="21" font="vector" ratio="15">H</text>
-<text x="59.69" y="107.95" size="6.4516" layer="21" font="vector" ratio="15">H</text>
-<text x="72.39" y="107.95" size="6.4516" layer="21" font="vector" ratio="15">I</text>
-<text x="83.82" y="107.95" size="6.4516" layer="21" font="vector" ratio="15">I</text>
-<text x="95.25" y="107.95" size="6.4516" layer="21" font="vector" ratio="15">I</text>
-<text x="106.68" y="107.95" size="6.4516" layer="21" font="vector" ratio="15">I</text>
-<text x="3.81" y="90.805" size="6.4516" layer="21" font="vector" ratio="15">I</text>
-<text x="15.24" y="90.805" size="6.4516" layer="21" font="vector" ratio="15">I</text>
-<text x="26.67" y="90.805" size="6.4516" layer="21" font="vector" ratio="15">I</text>
-<text x="38.1" y="90.805" size="6.4516" layer="21" font="vector" ratio="15">I</text>
-<text x="49.53" y="90.805" size="6.4516" layer="21" font="vector" ratio="15">I</text>
-<text x="59.69" y="90.805" size="6.4516" layer="21" font="vector" ratio="15">J</text>
-<text x="71.755" y="90.805" size="6.4516" layer="21" font="vector" ratio="15">K</text>
-<text x="83.185" y="90.805" size="6.4516" layer="21" font="vector" ratio="15">L</text>
-<text x="94.615" y="90.805" size="6.4516" layer="21" font="vector" ratio="15">L</text>
-<text x="106.045" y="90.805" size="6.4516" layer="21" font="vector" ratio="15">L</text>
-<text x="3.175" y="73.66" size="6.4516" layer="21" font="vector" ratio="15">L</text>
-<text x="14.605" y="73.66" size="6.4516" layer="21" font="vector" ratio="15">M</text>
-<text x="26.035" y="73.66" size="6.4516" layer="21" font="vector" ratio="15">M</text>
-<text x="36.83" y="73.66" size="6.4516" layer="21" font="vector" ratio="15">N</text>
-<text x="48.26" y="73.66" size="6.4516" layer="21" font="vector" ratio="15">N</text>
-<text x="59.69" y="73.66" size="6.4516" layer="21" font="vector" ratio="15">N</text>
-<text x="71.12" y="73.66" size="6.4516" layer="21" font="vector" ratio="15">N</text>
-<text x="82.55" y="73.66" size="6.4516" layer="21" font="vector" ratio="15">N</text>
-<text x="93.98" y="73.66" size="6.4516" layer="21" font="vector" ratio="15">N</text>
-<text x="106.045" y="73.025" size="6.4516" layer="21" font="vector" ratio="15">O</text>
-<text x="3.175" y="55.88" size="6.4516" layer="21" font="vector" ratio="15">O</text>
-<text x="14.605" y="55.88" size="6.4516" layer="21" font="vector" ratio="15">O</text>
-<text x="26.035" y="55.88" size="6.4516" layer="21" font="vector" ratio="15">O</text>
-<text x="37.465" y="55.88" size="6.4516" layer="21" font="vector" ratio="15">O</text>
-<text x="48.895" y="55.88" size="6.4516" layer="21" font="vector" ratio="15">O</text>
-<text x="60.325" y="55.88" size="6.4516" layer="21" font="vector" ratio="15">O</text>
-<text x="71.755" y="55.88" size="6.4516" layer="21" font="vector" ratio="15">O</text>
-<text x="83.185" y="55.88" size="6.4516" layer="21" font="vector" ratio="15">P</text>
-<text x="94.615" y="55.88" size="6.4516" layer="21" font="vector" ratio="15">P</text>
-<text x="106.045" y="55.88" size="6.4516" layer="21" font="vector" ratio="15">Q</text>
-<text x="3.175" y="38.735" size="6.4516" layer="21" font="vector" ratio="15">R</text>
-<text x="14.605" y="38.735" size="6.4516" layer="21" font="vector" ratio="15">R</text>
-<text x="26.035" y="38.735" size="6.4516" layer="21" font="vector" ratio="15">R</text>
-<text x="37.465" y="38.735" size="6.4516" layer="21" font="vector" ratio="15">R</text>
-<text x="48.895" y="38.735" size="6.4516" layer="21" font="vector" ratio="15">R</text>
-<text x="60.325" y="38.735" size="6.4516" layer="21" font="vector" ratio="15">R</text>
-<text x="71.755" y="38.735" size="6.4516" layer="21" font="vector" ratio="15">S</text>
-<text x="83.185" y="38.735" size="6.4516" layer="21" font="vector" ratio="15">S</text>
-<text x="94.615" y="38.735" size="6.4516" layer="21" font="vector" ratio="15">S</text>
-<text x="106.045" y="38.735" size="6.4516" layer="21" font="vector" ratio="15">S</text>
-<text x="2.54" y="21.59" size="6.4516" layer="21" font="vector" ratio="15">T</text>
-<text x="13.97" y="21.59" size="6.4516" layer="21" font="vector" ratio="15">T</text>
-<text x="25.4" y="21.59" size="6.4516" layer="21" font="vector" ratio="15">T</text>
-<text x="36.83" y="21.59" size="6.4516" layer="21" font="vector" ratio="15">T</text>
-<text x="48.26" y="21.59" size="6.4516" layer="21" font="vector" ratio="15">T</text>
-<text x="59.69" y="21.59" size="6.4516" layer="21" font="vector" ratio="15">T</text>
-<text x="71.755" y="21.59" size="6.4516" layer="21" font="vector" ratio="15">U</text>
-<text x="83.185" y="21.59" size="6.4516" layer="21" font="vector" ratio="15">U</text>
-<text x="94.615" y="21.59" size="6.4516" layer="21" font="vector" ratio="15">U</text>
-<text x="106.045" y="21.59" size="6.4516" layer="21" font="vector" ratio="15">U</text>
+<text x="2.54" y="157.607" size="6.4516" layer="21" font="vector" ratio="15">A</text>
+<text x="13.208" y="157.607" size="6.4516" layer="21" font="vector" ratio="15">A</text>
+<text x="23.876" y="157.607" size="6.4516" layer="21" font="vector" ratio="15">A</text>
+<text x="34.544" y="157.607" size="6.4516" layer="21" font="vector" ratio="15">A</text>
+<text x="45.212" y="157.607" size="6.4516" layer="21" font="vector" ratio="15">A</text>
+<text x="55.88" y="157.607" size="6.4516" layer="21" font="vector" ratio="15">A</text>
+<text x="66.548" y="157.607" size="6.4516" layer="21" font="vector" ratio="15">A</text>
+<text x="77.216" y="157.607" size="6.4516" layer="21" font="vector" ratio="15">A</text>
+<text x="87.884" y="157.607" size="6.4516" layer="21" font="vector" ratio="15">A</text>
+<text x="99.187" y="157.607" size="6.4516" layer="21" font="vector" ratio="15">B</text>
+<text x="3.175" y="140.589" size="6.4516" layer="21" font="vector" ratio="15">B</text>
+<text x="13.208" y="140.589" size="6.4516" layer="21" font="vector" ratio="15">C</text>
+<text x="23.876" y="140.589" size="6.4516" layer="21" font="vector" ratio="15">C</text>
+<text x="34.544" y="140.589" size="6.4516" layer="21" font="vector" ratio="15">D</text>
+<text x="45.212" y="140.589" size="6.4516" layer="21" font="vector" ratio="15">D</text>
+<text x="55.88" y="140.589" size="6.4516" layer="21" font="vector" ratio="15">D</text>
+<text x="66.548" y="140.589" size="6.4516" layer="21" font="vector" ratio="15">D</text>
+<text x="77.851" y="140.589" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="88.519" y="140.589" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="99.187" y="140.589" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="3.175" y="123.571" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="13.843" y="123.571" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="24.511" y="123.571" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="35.179" y="123.571" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="45.847" y="123.571" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="56.515" y="123.571" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="67.183" y="123.571" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="77.851" y="123.571" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="88.519" y="123.571" size="6.4516" layer="21" font="vector" ratio="15">E</text>
+<text x="99.187" y="123.571" size="6.4516" layer="21" font="vector" ratio="15">F</text>
+<text x="3.175" y="106.553" size="6.4516" layer="21" font="vector" ratio="15">F</text>
+<text x="13.843" y="106.553" size="6.4516" layer="21" font="vector" ratio="15">G</text>
+<text x="24.511" y="106.553" size="6.4516" layer="21" font="vector" ratio="15">G</text>
+<text x="35.179" y="106.553" size="6.4516" layer="21" font="vector" ratio="15">G</text>
+<text x="45.212" y="107.188" size="6.4516" layer="21" font="vector" ratio="15">H</text>
+<text x="55.88" y="107.188" size="6.4516" layer="21" font="vector" ratio="15">H</text>
+<text x="67.818" y="107.188" size="6.4516" layer="21" font="vector" ratio="15">I</text>
+<text x="78.486" y="107.188" size="6.4516" layer="21" font="vector" ratio="15">I</text>
+<text x="89.154" y="107.188" size="6.4516" layer="21" font="vector" ratio="15">I</text>
+<text x="99.822" y="107.188" size="6.4516" layer="21" font="vector" ratio="15">I</text>
+<text x="3.81" y="90.17" size="6.4516" layer="21" font="vector" ratio="15">I</text>
+<text x="14.478" y="90.17" size="6.4516" layer="21" font="vector" ratio="15">I</text>
+<text x="25.146" y="90.17" size="6.4516" layer="21" font="vector" ratio="15">I</text>
+<text x="35.814" y="90.17" size="6.4516" layer="21" font="vector" ratio="15">I</text>
+<text x="46.482" y="90.17" size="6.4516" layer="21" font="vector" ratio="15">I</text>
+<text x="55.88" y="90.17" size="6.4516" layer="21" font="vector" ratio="15">J</text>
+<text x="67.183" y="90.17" size="6.4516" layer="21" font="vector" ratio="15">K</text>
+<text x="77.851" y="90.17" size="6.4516" layer="21" font="vector" ratio="15">L</text>
+<text x="88.519" y="90.17" size="6.4516" layer="21" font="vector" ratio="15">L</text>
+<text x="99.187" y="90.17" size="6.4516" layer="21" font="vector" ratio="15">L</text>
+<text x="3.175" y="73.152" size="6.4516" layer="21" font="vector" ratio="15">L</text>
+<text x="13.843" y="73.152" size="6.4516" layer="21" font="vector" ratio="15">M</text>
+<text x="24.511" y="73.152" size="6.4516" layer="21" font="vector" ratio="15">M</text>
+<text x="34.544" y="73.152" size="6.4516" layer="21" font="vector" ratio="15">N</text>
+<text x="45.212" y="73.152" size="6.4516" layer="21" font="vector" ratio="15">N</text>
+<text x="55.88" y="73.152" size="6.4516" layer="21" font="vector" ratio="15">N</text>
+<text x="66.548" y="73.152" size="6.4516" layer="21" font="vector" ratio="15">N</text>
+<text x="77.216" y="73.152" size="6.4516" layer="21" font="vector" ratio="15">N</text>
+<text x="87.884" y="73.152" size="6.4516" layer="21" font="vector" ratio="15">N</text>
+<text x="99.187" y="72.517" size="6.4516" layer="21" font="vector" ratio="15">O</text>
+<text x="3.175" y="55.499" size="6.4516" layer="21" font="vector" ratio="15">O</text>
+<text x="13.843" y="55.499" size="6.4516" layer="21" font="vector" ratio="15">O</text>
+<text x="24.511" y="55.499" size="6.4516" layer="21" font="vector" ratio="15">O</text>
+<text x="35.179" y="55.499" size="6.4516" layer="21" font="vector" ratio="15">O</text>
+<text x="45.847" y="55.499" size="6.4516" layer="21" font="vector" ratio="15">O</text>
+<text x="56.515" y="55.499" size="6.4516" layer="21" font="vector" ratio="15">O</text>
+<text x="67.183" y="55.499" size="6.4516" layer="21" font="vector" ratio="15">O</text>
+<text x="77.851" y="55.499" size="6.4516" layer="21" font="vector" ratio="15">P</text>
+<text x="88.519" y="55.499" size="6.4516" layer="21" font="vector" ratio="15">P</text>
+<text x="99.187" y="55.499" size="6.4516" layer="21" font="vector" ratio="15">Q</text>
+<text x="3.175" y="38.481" size="6.4516" layer="21" font="vector" ratio="15">R</text>
+<text x="13.843" y="38.481" size="6.4516" layer="21" font="vector" ratio="15">R</text>
+<text x="24.511" y="38.481" size="6.4516" layer="21" font="vector" ratio="15">R</text>
+<text x="35.179" y="38.481" size="6.4516" layer="21" font="vector" ratio="15">R</text>
+<text x="45.847" y="38.481" size="6.4516" layer="21" font="vector" ratio="15">R</text>
+<text x="56.515" y="38.481" size="6.4516" layer="21" font="vector" ratio="15">R</text>
+<text x="67.183" y="38.481" size="6.4516" layer="21" font="vector" ratio="15">S</text>
+<text x="77.851" y="38.481" size="6.4516" layer="21" font="vector" ratio="15">S</text>
+<text x="88.519" y="38.481" size="6.4516" layer="21" font="vector" ratio="15">S</text>
+<text x="99.187" y="38.481" size="6.4516" layer="21" font="vector" ratio="15">S</text>
+<text x="2.54" y="21.463" size="6.4516" layer="21" font="vector" ratio="15">T</text>
+<text x="13.208" y="21.463" size="6.4516" layer="21" font="vector" ratio="15">T</text>
+<text x="23.876" y="21.463" size="6.4516" layer="21" font="vector" ratio="15">T</text>
+<text x="34.544" y="21.463" size="6.4516" layer="21" font="vector" ratio="15">T</text>
+<text x="45.212" y="21.463" size="6.4516" layer="21" font="vector" ratio="15">T</text>
+<text x="55.88" y="21.463" size="6.4516" layer="21" font="vector" ratio="15">T</text>
+<text x="67.183" y="21.463" size="6.4516" layer="21" font="vector" ratio="15">U</text>
+<text x="77.851" y="21.463" size="6.4516" layer="21" font="vector" ratio="15">U</text>
+<text x="88.519" y="21.463" size="6.4516" layer="21" font="vector" ratio="15">U</text>
+<text x="99.187" y="21.463" size="6.4516" layer="21" font="vector" ratio="15">U</text>
 <text x="2.54" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">V</text>
-<text x="13.97" y="4.445" size="6.4516" layer="21" font="vector" ratio="15">V</text>
-<text x="26.035" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">W</text>
-<text x="37.465" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">W</text>
-<text x="48.895" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">X</text>
-<text x="59.69" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">Y</text>
-<text x="71.12" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">Y</text>
-<text x="83.185" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">Z</text>
-<rectangle x1="93.98" y1="4.445" x2="99.06" y2="11.43" layer="21"/>
-<rectangle x1="105.41" y1="4.445" x2="110.49" y2="11.43" layer="21"/>
+<text x="13.208" y="4.445" size="6.4516" layer="21" font="vector" ratio="15">V</text>
+<text x="24.511" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">W</text>
+<text x="35.179" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">W</text>
+<text x="45.847" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">X</text>
+<text x="55.88" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">Y</text>
+<text x="66.548" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">Y</text>
+<text x="77.851" y="5.08" size="6.4516" layer="21" font="vector" ratio="15">Z</text>
+<rectangle x1="87.884" y1="4.445" x2="92.964" y2="11.43" layer="21"/>
+<rectangle x1="98.552" y1="4.445" x2="103.632" y2="11.43" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -657,504 +657,504 @@ design rules under a new name.
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="34.29" y="-8.89"/>
 <element name="LOGO23" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="10.287" rot="MR0"/>
 <element name="LOGO49" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="4.445" rot="MR0"/>
-<element name="U$1" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="102.87" y="154.305" smashed="yes">
-<attribute name="PROD_ID" value="PCB-12193" x="102.87" y="154.305" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$1" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="96.012" y="153.162" smashed="yes">
+<attribute name="PROD_ID" value="PCB-12193" x="96.012" y="153.162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$2" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="91.44" y="154.305" smashed="yes">
-<attribute name="PROD_ID" value="PCB-12193" x="91.44" y="154.305" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$2" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="85.344" y="153.162" smashed="yes">
+<attribute name="PROD_ID" value="PCB-12193" x="85.344" y="153.162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$3" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="80.01" y="154.305" smashed="yes">
-<attribute name="PROD_ID" value="PCB-12193" x="80.01" y="154.305" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$3" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="74.676" y="153.162" smashed="yes">
+<attribute name="PROD_ID" value="PCB-12193" x="74.676" y="153.162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$4" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="102.87" y="0">
-<attribute name="PROD_ID" value="PCB-12193" x="102.87" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$4" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="96.012" y="0">
+<attribute name="PROD_ID" value="PCB-12193" x="96.012" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$5" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="91.44" y="0">
-<attribute name="PROD_ID" value="PCB-12193" x="91.44" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$5" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="85.344" y="0">
+<attribute name="PROD_ID" value="PCB-12193" x="85.344" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$6" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="80.01" y="0">
-<attribute name="PROD_ID" value="PCB-12193" x="80.01" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$6" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="74.676" y="0">
+<attribute name="PROD_ID" value="PCB-12193" x="74.676" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$7" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="68.58" y="0">
-<attribute name="PROD_ID" value="PCB-12193" x="68.58" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$7" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="64.008" y="0">
+<attribute name="PROD_ID" value="PCB-12193" x="64.008" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$8" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="57.15" y="0">
-<attribute name="PROD_ID" value="PCB-12193" x="57.15" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$8" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="53.34" y="0">
+<attribute name="PROD_ID" value="PCB-12193" x="53.34" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$9" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="45.72" y="0">
-<attribute name="PROD_ID" value="PCB-12193" x="45.72" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$9" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="42.672" y="0">
+<attribute name="PROD_ID" value="PCB-12193" x="42.672" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$10" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="34.29" y="0">
-<attribute name="PROD_ID" value="PCB-12193" x="34.29" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$10" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="32.004" y="0">
+<attribute name="PROD_ID" value="PCB-12193" x="32.004" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$11" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="22.86" y="0">
-<attribute name="PROD_ID" value="PCB-12193" x="22.86" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$11" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="21.336" y="0">
+<attribute name="PROD_ID" value="PCB-12193" x="21.336" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$12" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="11.43" y="0">
-<attribute name="PROD_ID" value="PCB-12193" x="11.43" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$12" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="10.668" y="0">
+<attribute name="PROD_ID" value="PCB-12193" x="10.668" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="U$13" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="0">
 <attribute name="PROD_ID" value="PCB-12193" x="0" y="0" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.78" y="10.287" rot="MR0"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.51" y="4.445" rot="MR0"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="29.21" y="10.287" rot="MR0"/>
-<element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="27.94" y="4.445" rot="MR0"/>
-<element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="40.64" y="10.287" rot="MR0"/>
-<element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.37" y="4.445" rot="MR0"/>
-<element name="LOGO7" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="52.07" y="10.287" rot="MR0"/>
-<element name="LOGO8" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.8" y="4.445" rot="MR0"/>
-<element name="LOGO9" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="63.5" y="10.287" rot="MR0"/>
-<element name="LOGO10" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="62.23" y="4.445" rot="MR0"/>
-<element name="LOGO11" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.93" y="10.287" rot="MR0"/>
-<element name="LOGO12" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="73.66" y="4.445" rot="MR0"/>
-<element name="LOGO13" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="86.36" y="10.287" rot="MR0"/>
-<element name="LOGO14" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="85.09" y="4.445" rot="MR0"/>
-<element name="LOGO15" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="97.79" y="10.287" rot="MR0"/>
-<element name="LOGO16" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.52" y="4.445" rot="MR0"/>
-<element name="LOGO17" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="109.22" y="10.287" rot="MR0"/>
-<element name="LOGO18" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="107.95" y="4.445" rot="MR0"/>
-<element name="LOGO19" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="86.36" y="164.592" smashed="yes" rot="MR0"/>
-<element name="LOGO20" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="85.09" y="158.75" smashed="yes" rot="MR0"/>
-<element name="LOGO21" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="97.79" y="164.592" smashed="yes" rot="MR0"/>
-<element name="LOGO22" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.52" y="158.75" smashed="yes" rot="MR0"/>
-<element name="LOGO24" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="109.22" y="164.592" smashed="yes" rot="MR0"/>
-<element name="LOGO25" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="107.95" y="158.75" smashed="yes" rot="MR0"/>
-<element name="U$14" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="80.01" y="120.015">
-<attribute name="PROD_ID" value="PCB-12193" x="80.01" y="120.015" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="10.287" rot="MR0"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="15.748" y="4.445" rot="MR0"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="27.686" y="10.287" rot="MR0"/>
+<element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="26.416" y="4.445" rot="MR0"/>
+<element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.354" y="10.287" rot="MR0"/>
+<element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="37.084" y="4.445" rot="MR0"/>
+<element name="LOGO7" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.022" y="10.287" rot="MR0"/>
+<element name="LOGO8" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="47.752" y="4.445" rot="MR0"/>
+<element name="LOGO9" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="59.69" y="10.287" rot="MR0"/>
+<element name="LOGO10" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="58.42" y="4.445" rot="MR0"/>
+<element name="LOGO11" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="70.358" y="10.287" rot="MR0"/>
+<element name="LOGO12" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="69.088" y="4.445" rot="MR0"/>
+<element name="LOGO13" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="81.026" y="10.287" rot="MR0"/>
+<element name="LOGO14" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="79.756" y="4.445" rot="MR0"/>
+<element name="LOGO15" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="91.694" y="10.287" rot="MR0"/>
+<element name="LOGO16" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="4.445" rot="MR0"/>
+<element name="LOGO17" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="102.362" y="10.287" rot="MR0"/>
+<element name="LOGO18" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="101.092" y="4.445" rot="MR0"/>
+<element name="LOGO19" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="81.026" y="163.449" smashed="yes" rot="MR0"/>
+<element name="LOGO20" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="79.756" y="157.607" smashed="yes" rot="MR0"/>
+<element name="LOGO21" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="91.694" y="163.449" smashed="yes" rot="MR0"/>
+<element name="LOGO22" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="157.607" smashed="yes" rot="MR0"/>
+<element name="LOGO24" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="102.362" y="163.449" smashed="yes" rot="MR0"/>
+<element name="LOGO25" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="101.092" y="157.607" smashed="yes" rot="MR0"/>
+<element name="U$14" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="74.676" y="119.126">
+<attribute name="PROD_ID" value="PCB-12193" x="74.676" y="119.126" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$15" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="68.58" y="120.015">
-<attribute name="PROD_ID" value="PCB-12193" x="68.58" y="120.015" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$15" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="64.008" y="119.126">
+<attribute name="PROD_ID" value="PCB-12193" x="64.008" y="119.126" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$16" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="57.15" y="120.015">
-<attribute name="PROD_ID" value="PCB-12193" x="57.15" y="120.015" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$16" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="53.34" y="119.126">
+<attribute name="PROD_ID" value="PCB-12193" x="53.34" y="119.126" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$17" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="45.72" y="120.015">
-<attribute name="PROD_ID" value="PCB-12193" x="45.72" y="120.015" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$17" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="42.672" y="119.126">
+<attribute name="PROD_ID" value="PCB-12193" x="42.672" y="119.126" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$18" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="34.29" y="120.015">
-<attribute name="PROD_ID" value="PCB-12193" x="34.29" y="120.015" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$18" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="32.004" y="119.126">
+<attribute name="PROD_ID" value="PCB-12193" x="32.004" y="119.126" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$19" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="22.86" y="120.015">
-<attribute name="PROD_ID" value="PCB-12193" x="22.86" y="120.015" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$19" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="21.336" y="119.126">
+<attribute name="PROD_ID" value="PCB-12193" x="21.336" y="119.126" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$20" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="11.43" y="120.015">
-<attribute name="PROD_ID" value="PCB-12193" x="11.43" y="120.015" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$20" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="10.668" y="119.126">
+<attribute name="PROD_ID" value="PCB-12193" x="10.668" y="119.126" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$21" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="120.015">
-<attribute name="PROD_ID" value="PCB-12193" x="0" y="120.015" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$21" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="119.126">
+<attribute name="PROD_ID" value="PCB-12193" x="0" y="119.126" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$22" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="91.44" y="120.015">
-<attribute name="PROD_ID" value="PCB-12193" x="91.44" y="120.015" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$22" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="85.344" y="119.126">
+<attribute name="PROD_ID" value="PCB-12193" x="85.344" y="119.126" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$23" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="34.29" y="137.16">
-<attribute name="PROD_ID" value="PCB-12193" x="34.29" y="137.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$23" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="32.004" y="136.144">
+<attribute name="PROD_ID" value="PCB-12193" x="32.004" y="136.144" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$24" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="22.86" y="137.16">
-<attribute name="PROD_ID" value="PCB-12193" x="22.86" y="137.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$24" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="21.336" y="136.144">
+<attribute name="PROD_ID" value="PCB-12193" x="21.336" y="136.144" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$25" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="102.87" y="120.015">
-<attribute name="PROD_ID" value="PCB-12193" x="102.87" y="120.015" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$25" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="96.012" y="119.126">
+<attribute name="PROD_ID" value="PCB-12193" x="96.012" y="119.126" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$26" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="102.87" y="102.87">
-<attribute name="PROD_ID" value="PCB-12193" x="102.87" y="102.87" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$26" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="96.012" y="102.108">
+<attribute name="PROD_ID" value="PCB-12193" x="96.012" y="102.108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$27" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="91.44" y="102.87">
-<attribute name="PROD_ID" value="PCB-12193" x="91.44" y="102.87" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$27" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="85.344" y="102.108">
+<attribute name="PROD_ID" value="PCB-12193" x="85.344" y="102.108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$28" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="80.01" y="102.87">
-<attribute name="PROD_ID" value="PCB-12193" x="80.01" y="102.87" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$28" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="74.676" y="102.108">
+<attribute name="PROD_ID" value="PCB-12193" x="74.676" y="102.108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$29" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="68.58" y="102.87">
-<attribute name="PROD_ID" value="PCB-12193" x="68.58" y="102.87" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$29" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="64.008" y="102.108">
+<attribute name="PROD_ID" value="PCB-12193" x="64.008" y="102.108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$30" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="57.15" y="102.87">
-<attribute name="PROD_ID" value="PCB-12193" x="57.15" y="102.87" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$30" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="53.34" y="102.108">
+<attribute name="PROD_ID" value="PCB-12193" x="53.34" y="102.108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$31" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="45.72" y="102.87">
-<attribute name="PROD_ID" value="PCB-12193" x="45.72" y="102.87" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$31" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="42.672" y="102.108">
+<attribute name="PROD_ID" value="PCB-12193" x="42.672" y="102.108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$32" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="34.29" y="102.87">
-<attribute name="PROD_ID" value="PCB-12193" x="34.29" y="102.87" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$32" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="32.004" y="102.108">
+<attribute name="PROD_ID" value="PCB-12193" x="32.004" y="102.108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$33" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="22.86" y="102.87">
-<attribute name="PROD_ID" value="PCB-12193" x="22.86" y="102.87" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$33" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="21.336" y="102.108">
+<attribute name="PROD_ID" value="PCB-12193" x="21.336" y="102.108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$34" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="11.43" y="102.87">
-<attribute name="PROD_ID" value="PCB-12193" x="11.43" y="102.87" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$34" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="10.668" y="102.108">
+<attribute name="PROD_ID" value="PCB-12193" x="10.668" y="102.108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$35" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="102.87">
-<attribute name="PROD_ID" value="PCB-12193" x="0" y="102.87" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$35" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="102.108">
+<attribute name="PROD_ID" value="PCB-12193" x="0" y="102.108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$36" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="45.72" y="137.16">
-<attribute name="PROD_ID" value="PCB-12193" x="45.72" y="137.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$36" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="42.672" y="136.144">
+<attribute name="PROD_ID" value="PCB-12193" x="42.672" y="136.144" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$37" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="11.43" y="137.16">
-<attribute name="PROD_ID" value="PCB-12193" x="11.43" y="137.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$37" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="10.668" y="136.144">
+<attribute name="PROD_ID" value="PCB-12193" x="10.668" y="136.144" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$38" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="137.16">
-<attribute name="PROD_ID" value="PCB-12193" x="0" y="137.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$38" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="136.144">
+<attribute name="PROD_ID" value="PCB-12193" x="0" y="136.144" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$39" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="102.87" y="85.725">
-<attribute name="PROD_ID" value="PCB-12193" x="102.87" y="85.725" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$39" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="96.012" y="85.09">
+<attribute name="PROD_ID" value="PCB-12193" x="96.012" y="85.09" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$40" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="91.44" y="85.725">
-<attribute name="PROD_ID" value="PCB-12193" x="91.44" y="85.725" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$40" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="85.344" y="85.09">
+<attribute name="PROD_ID" value="PCB-12193" x="85.344" y="85.09" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$41" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="80.01" y="85.725">
-<attribute name="PROD_ID" value="PCB-12193" x="80.01" y="85.725" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$41" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="74.676" y="85.09">
+<attribute name="PROD_ID" value="PCB-12193" x="74.676" y="85.09" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$42" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="68.58" y="85.725">
-<attribute name="PROD_ID" value="PCB-12193" x="68.58" y="85.725" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$42" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="64.008" y="85.09">
+<attribute name="PROD_ID" value="PCB-12193" x="64.008" y="85.09" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$43" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="57.15" y="85.725">
-<attribute name="PROD_ID" value="PCB-12193" x="57.15" y="85.725" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$43" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="53.34" y="85.09">
+<attribute name="PROD_ID" value="PCB-12193" x="53.34" y="85.09" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$44" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="45.72" y="85.725">
-<attribute name="PROD_ID" value="PCB-12193" x="45.72" y="85.725" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$44" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="42.672" y="85.09">
+<attribute name="PROD_ID" value="PCB-12193" x="42.672" y="85.09" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$45" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="34.29" y="85.725">
-<attribute name="PROD_ID" value="PCB-12193" x="34.29" y="85.725" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$45" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="32.004" y="85.09">
+<attribute name="PROD_ID" value="PCB-12193" x="32.004" y="85.09" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$46" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="22.86" y="85.725">
-<attribute name="PROD_ID" value="PCB-12193" x="22.86" y="85.725" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$46" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="21.336" y="85.09">
+<attribute name="PROD_ID" value="PCB-12193" x="21.336" y="85.09" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$47" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="11.43" y="85.725">
-<attribute name="PROD_ID" value="PCB-12193" x="11.43" y="85.725" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$47" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="10.668" y="85.09">
+<attribute name="PROD_ID" value="PCB-12193" x="10.668" y="85.09" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$48" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="85.725">
-<attribute name="PROD_ID" value="PCB-12193" x="0" y="85.725" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$48" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="85.09">
+<attribute name="PROD_ID" value="PCB-12193" x="0" y="85.09" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$49" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="68.58" y="137.16">
-<attribute name="PROD_ID" value="PCB-12193" x="68.58" y="137.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$49" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="64.008" y="136.144">
+<attribute name="PROD_ID" value="PCB-12193" x="64.008" y="136.144" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$50" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="57.15" y="137.16">
-<attribute name="PROD_ID" value="PCB-12193" x="57.15" y="137.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$50" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="53.34" y="136.144">
+<attribute name="PROD_ID" value="PCB-12193" x="53.34" y="136.144" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$51" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="154.305">
-<attribute name="PROD_ID" value="PCB-12193" x="0" y="154.305" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$51" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="153.162">
+<attribute name="PROD_ID" value="PCB-12193" x="0" y="153.162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$52" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="102.87" y="68.58">
-<attribute name="PROD_ID" value="PCB-12193" x="102.87" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$52" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="96.012" y="68.072">
+<attribute name="PROD_ID" value="PCB-12193" x="96.012" y="68.072" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$53" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="91.44" y="68.58">
-<attribute name="PROD_ID" value="PCB-12193" x="91.44" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$53" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="85.344" y="68.072">
+<attribute name="PROD_ID" value="PCB-12193" x="85.344" y="68.072" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$54" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="80.01" y="68.58">
-<attribute name="PROD_ID" value="PCB-12193" x="80.01" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$54" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="74.676" y="68.072">
+<attribute name="PROD_ID" value="PCB-12193" x="74.676" y="68.072" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$55" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="68.58" y="68.58">
-<attribute name="PROD_ID" value="PCB-12193" x="68.58" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$55" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="64.008" y="68.072">
+<attribute name="PROD_ID" value="PCB-12193" x="64.008" y="68.072" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$56" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="57.15" y="68.58">
-<attribute name="PROD_ID" value="PCB-12193" x="57.15" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$56" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="53.34" y="68.072">
+<attribute name="PROD_ID" value="PCB-12193" x="53.34" y="68.072" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$57" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="45.72" y="68.58">
-<attribute name="PROD_ID" value="PCB-12193" x="45.72" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$57" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="42.672" y="68.072">
+<attribute name="PROD_ID" value="PCB-12193" x="42.672" y="68.072" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$58" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="34.29" y="68.58">
-<attribute name="PROD_ID" value="PCB-12193" x="34.29" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$58" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="32.004" y="68.072">
+<attribute name="PROD_ID" value="PCB-12193" x="32.004" y="68.072" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$59" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="22.86" y="68.58">
-<attribute name="PROD_ID" value="PCB-12193" x="22.86" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$59" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="21.336" y="68.072">
+<attribute name="PROD_ID" value="PCB-12193" x="21.336" y="68.072" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$60" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="11.43" y="68.58">
-<attribute name="PROD_ID" value="PCB-12193" x="11.43" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$60" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="10.668" y="68.072">
+<attribute name="PROD_ID" value="PCB-12193" x="10.668" y="68.072" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$61" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="68.58">
-<attribute name="PROD_ID" value="PCB-12193" x="0" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$61" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="68.072">
+<attribute name="PROD_ID" value="PCB-12193" x="0" y="68.072" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$62" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="91.44" y="137.16">
-<attribute name="PROD_ID" value="PCB-12193" x="91.44" y="137.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$62" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="85.344" y="136.144">
+<attribute name="PROD_ID" value="PCB-12193" x="85.344" y="136.144" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$63" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="80.01" y="137.16">
-<attribute name="PROD_ID" value="PCB-12193" x="80.01" y="137.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$63" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="74.676" y="136.144">
+<attribute name="PROD_ID" value="PCB-12193" x="74.676" y="136.144" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$64" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="11.43" y="154.305">
-<attribute name="PROD_ID" value="PCB-12193" x="11.43" y="154.305" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$64" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="10.668" y="153.162">
+<attribute name="PROD_ID" value="PCB-12193" x="10.668" y="153.162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$65" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="102.87" y="51.435">
-<attribute name="PROD_ID" value="PCB-12193" x="102.87" y="51.435" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$65" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="96.012" y="51.054">
+<attribute name="PROD_ID" value="PCB-12193" x="96.012" y="51.054" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$66" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="91.44" y="51.435">
-<attribute name="PROD_ID" value="PCB-12193" x="91.44" y="51.435" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$66" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="85.344" y="51.054">
+<attribute name="PROD_ID" value="PCB-12193" x="85.344" y="51.054" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$67" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="80.01" y="51.435">
-<attribute name="PROD_ID" value="PCB-12193" x="80.01" y="51.435" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$67" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="74.676" y="51.054">
+<attribute name="PROD_ID" value="PCB-12193" x="74.676" y="51.054" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$68" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="68.58" y="51.435">
-<attribute name="PROD_ID" value="PCB-12193" x="68.58" y="51.435" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$68" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="64.008" y="51.054">
+<attribute name="PROD_ID" value="PCB-12193" x="64.008" y="51.054" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$69" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="57.15" y="51.435">
-<attribute name="PROD_ID" value="PCB-12193" x="57.15" y="51.435" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$69" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="53.34" y="51.054">
+<attribute name="PROD_ID" value="PCB-12193" x="53.34" y="51.054" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$70" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="45.72" y="51.435">
-<attribute name="PROD_ID" value="PCB-12193" x="45.72" y="51.435" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$70" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="42.672" y="51.054">
+<attribute name="PROD_ID" value="PCB-12193" x="42.672" y="51.054" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$71" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="34.29" y="51.435">
-<attribute name="PROD_ID" value="PCB-12193" x="34.29" y="51.435" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$71" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="32.004" y="51.054">
+<attribute name="PROD_ID" value="PCB-12193" x="32.004" y="51.054" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$72" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="22.86" y="51.435">
-<attribute name="PROD_ID" value="PCB-12193" x="22.86" y="51.435" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$72" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="21.336" y="51.054">
+<attribute name="PROD_ID" value="PCB-12193" x="21.336" y="51.054" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$73" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="11.43" y="51.435">
-<attribute name="PROD_ID" value="PCB-12193" x="11.43" y="51.435" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$73" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="10.668" y="51.054">
+<attribute name="PROD_ID" value="PCB-12193" x="10.668" y="51.054" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$74" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="51.435">
-<attribute name="PROD_ID" value="PCB-12193" x="0" y="51.435" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$74" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="51.054">
+<attribute name="PROD_ID" value="PCB-12193" x="0" y="51.054" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$75" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="45.72" y="154.305">
-<attribute name="PROD_ID" value="PCB-12193" x="45.72" y="154.305" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$75" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="42.672" y="153.162">
+<attribute name="PROD_ID" value="PCB-12193" x="42.672" y="153.162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$76" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="102.87" y="137.16">
-<attribute name="PROD_ID" value="PCB-12193" x="102.87" y="137.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$76" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="96.012" y="136.144">
+<attribute name="PROD_ID" value="PCB-12193" x="96.012" y="136.144" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$77" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="22.86" y="154.305">
-<attribute name="PROD_ID" value="PCB-12193" x="22.86" y="154.305" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$77" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="21.336" y="153.162">
+<attribute name="PROD_ID" value="PCB-12193" x="21.336" y="153.162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$78" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="102.87" y="34.29">
-<attribute name="PROD_ID" value="PCB-12193" x="102.87" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$78" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="96.012" y="34.036">
+<attribute name="PROD_ID" value="PCB-12193" x="96.012" y="34.036" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$79" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="91.44" y="34.29">
-<attribute name="PROD_ID" value="PCB-12193" x="91.44" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$79" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="85.344" y="34.036">
+<attribute name="PROD_ID" value="PCB-12193" x="85.344" y="34.036" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$80" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="80.01" y="34.29">
-<attribute name="PROD_ID" value="PCB-12193" x="80.01" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$80" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="74.676" y="34.036">
+<attribute name="PROD_ID" value="PCB-12193" x="74.676" y="34.036" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$81" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="68.58" y="34.29">
-<attribute name="PROD_ID" value="PCB-12193" x="68.58" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$81" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="64.008" y="34.036">
+<attribute name="PROD_ID" value="PCB-12193" x="64.008" y="34.036" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$82" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="57.15" y="34.29">
-<attribute name="PROD_ID" value="PCB-12193" x="57.15" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$82" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="53.34" y="34.036">
+<attribute name="PROD_ID" value="PCB-12193" x="53.34" y="34.036" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$83" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="45.72" y="34.29">
-<attribute name="PROD_ID" value="PCB-12193" x="45.72" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$83" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="42.672" y="34.036">
+<attribute name="PROD_ID" value="PCB-12193" x="42.672" y="34.036" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$84" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="34.29" y="34.29">
-<attribute name="PROD_ID" value="PCB-12193" x="34.29" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$84" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="32.004" y="34.036">
+<attribute name="PROD_ID" value="PCB-12193" x="32.004" y="34.036" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$85" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="22.86" y="34.29">
-<attribute name="PROD_ID" value="PCB-12193" x="22.86" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$85" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="21.336" y="34.036">
+<attribute name="PROD_ID" value="PCB-12193" x="21.336" y="34.036" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$86" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="11.43" y="34.29">
-<attribute name="PROD_ID" value="PCB-12193" x="11.43" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$86" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="10.668" y="34.036">
+<attribute name="PROD_ID" value="PCB-12193" x="10.668" y="34.036" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$87" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="34.29">
-<attribute name="PROD_ID" value="PCB-12193" x="0" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$87" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="34.036">
+<attribute name="PROD_ID" value="PCB-12193" x="0" y="34.036" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$88" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="68.58" y="154.305">
-<attribute name="PROD_ID" value="PCB-12193" x="68.58" y="154.305" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U$88" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="64.008" y="153.162">
+<attribute name="PROD_ID" value="PCB-12193" x="64.008" y="153.162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$89" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="57.15" y="154.305">
-<attribute name="PROD_ID" value="PCB-12193" x="57.15" y="154.305" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$90" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="34.29" y="154.305">
-<attribute name="PROD_ID" value="PCB-12193" x="34.29" y="154.305" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$91" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="102.87" y="17.145">
-<attribute name="PROD_ID" value="PCB-12193" x="102.87" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$92" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="91.44" y="17.145">
-<attribute name="PROD_ID" value="PCB-12193" x="91.44" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$93" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="80.01" y="17.145">
-<attribute name="PROD_ID" value="PCB-12193" x="80.01" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$94" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="68.58" y="17.145">
-<attribute name="PROD_ID" value="PCB-12193" x="68.58" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$95" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="57.15" y="17.145">
-<attribute name="PROD_ID" value="PCB-12193" x="57.15" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$96" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="45.72" y="17.145">
-<attribute name="PROD_ID" value="PCB-12193" x="45.72" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$97" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="34.29" y="17.145">
-<attribute name="PROD_ID" value="PCB-12193" x="34.29" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$98" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="22.86" y="17.145">
-<attribute name="PROD_ID" value="PCB-12193" x="22.86" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$99" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="11.43" y="17.145">
-<attribute name="PROD_ID" value="PCB-12193" x="11.43" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="U$100" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="17.145">
-<attribute name="PROD_ID" value="PCB-12193" x="0" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="LOGO26" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="27.432" rot="MR0"/>
-<element name="LOGO27" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="21.59" rot="MR0"/>
-<element name="LOGO28" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.78" y="27.432" rot="MR0"/>
-<element name="LOGO29" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.51" y="21.59" rot="MR0"/>
-<element name="LOGO30" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="29.21" y="27.432" rot="MR0"/>
-<element name="LOGO31" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="27.94" y="21.59" rot="MR0"/>
-<element name="LOGO32" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="40.64" y="27.432" rot="MR0"/>
-<element name="LOGO33" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.37" y="21.59" rot="MR0"/>
-<element name="LOGO34" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="52.07" y="27.432" rot="MR0"/>
-<element name="LOGO35" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.8" y="21.59" rot="MR0"/>
-<element name="LOGO36" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="63.5" y="27.432" rot="MR0"/>
-<element name="LOGO37" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="62.23" y="21.59" rot="MR0"/>
-<element name="LOGO38" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.93" y="27.432" rot="MR0"/>
-<element name="LOGO39" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="73.66" y="21.59" rot="MR0"/>
-<element name="LOGO40" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="86.36" y="27.432" rot="MR0"/>
-<element name="LOGO41" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="85.09" y="21.59" rot="MR0"/>
-<element name="LOGO42" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="97.79" y="27.432" rot="MR0"/>
-<element name="LOGO43" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.52" y="21.59" rot="MR0"/>
-<element name="LOGO44" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="109.22" y="27.432" rot="MR0"/>
-<element name="LOGO45" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="107.95" y="21.59" rot="MR0"/>
-<element name="LOGO46" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="44.577" rot="MR0"/>
-<element name="LOGO47" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="38.735" rot="MR0"/>
-<element name="LOGO48" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.78" y="44.577" rot="MR0"/>
-<element name="LOGO50" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.51" y="38.735" rot="MR0"/>
-<element name="LOGO51" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="29.21" y="44.577" rot="MR0"/>
-<element name="LOGO52" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="27.94" y="38.735" rot="MR0"/>
-<element name="LOGO53" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="40.64" y="44.577" rot="MR0"/>
-<element name="LOGO54" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.37" y="38.735" rot="MR0"/>
-<element name="LOGO55" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="52.07" y="44.577" rot="MR0"/>
-<element name="LOGO56" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.8" y="38.735" rot="MR0"/>
-<element name="LOGO57" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="63.5" y="44.577" rot="MR0"/>
-<element name="LOGO58" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="62.23" y="38.735" rot="MR0"/>
-<element name="LOGO59" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.93" y="44.577" rot="MR0"/>
-<element name="LOGO60" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="73.66" y="38.735" rot="MR0"/>
-<element name="LOGO61" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="86.36" y="44.577" rot="MR0"/>
-<element name="LOGO62" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="85.09" y="38.735" rot="MR0"/>
-<element name="LOGO63" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="97.79" y="44.577" rot="MR0"/>
-<element name="LOGO64" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.52" y="38.735" rot="MR0"/>
-<element name="LOGO65" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="109.22" y="44.577" rot="MR0"/>
-<element name="LOGO66" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="107.95" y="38.735" rot="MR0"/>
-<element name="LOGO67" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="61.722" rot="MR0"/>
-<element name="LOGO68" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="55.88" rot="MR0"/>
-<element name="LOGO69" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.78" y="61.722" rot="MR0"/>
-<element name="LOGO70" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.51" y="55.88" rot="MR0"/>
-<element name="LOGO71" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="29.21" y="61.722" rot="MR0"/>
-<element name="LOGO72" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="27.94" y="55.88" rot="MR0"/>
-<element name="LOGO73" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="40.64" y="61.722" rot="MR0"/>
-<element name="LOGO74" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.37" y="55.88" rot="MR0"/>
-<element name="LOGO75" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="52.07" y="61.722" rot="MR0"/>
-<element name="LOGO76" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.8" y="55.88" rot="MR0"/>
-<element name="LOGO77" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="63.5" y="61.722" rot="MR0"/>
-<element name="LOGO78" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="62.23" y="55.88" rot="MR0"/>
-<element name="LOGO79" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.93" y="61.722" rot="MR0"/>
-<element name="LOGO80" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="73.66" y="55.88" rot="MR0"/>
-<element name="LOGO81" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="86.36" y="61.722" rot="MR0"/>
-<element name="LOGO82" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="85.09" y="55.88" rot="MR0"/>
-<element name="LOGO83" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="97.79" y="61.722" rot="MR0"/>
-<element name="LOGO84" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.52" y="55.88" rot="MR0"/>
-<element name="LOGO85" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="109.22" y="61.722" rot="MR0"/>
-<element name="LOGO86" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="107.95" y="55.88" rot="MR0"/>
-<element name="LOGO87" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="78.867" rot="MR0"/>
-<element name="LOGO88" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="73.025" rot="MR0"/>
-<element name="LOGO89" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.78" y="78.867" rot="MR0"/>
-<element name="LOGO90" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.51" y="73.025" rot="MR0"/>
-<element name="LOGO91" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="29.21" y="78.867" rot="MR0"/>
-<element name="LOGO92" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="27.94" y="73.025" rot="MR0"/>
-<element name="LOGO93" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="40.64" y="78.867" rot="MR0"/>
-<element name="LOGO94" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.37" y="73.025" rot="MR0"/>
-<element name="LOGO95" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="52.07" y="78.867" rot="MR0"/>
-<element name="LOGO96" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.8" y="73.025" rot="MR0"/>
-<element name="LOGO97" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="63.5" y="78.867" rot="MR0"/>
-<element name="LOGO98" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="62.23" y="73.025" rot="MR0"/>
-<element name="LOGO99" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.93" y="78.867" rot="MR0"/>
-<element name="LOGO100" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="73.66" y="73.025" rot="MR0"/>
-<element name="LOGO101" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="86.36" y="78.867" rot="MR0"/>
-<element name="LOGO102" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="85.09" y="73.025" rot="MR0"/>
-<element name="LOGO103" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="97.79" y="78.867" rot="MR0"/>
-<element name="LOGO104" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.52" y="73.025" rot="MR0"/>
-<element name="LOGO105" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="109.22" y="78.867" rot="MR0"/>
-<element name="LOGO106" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="107.95" y="73.025" rot="MR0"/>
-<element name="LOGO107" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="96.012" rot="MR0"/>
-<element name="LOGO108" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="90.17" rot="MR0"/>
-<element name="LOGO109" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.78" y="96.012" rot="MR0"/>
-<element name="LOGO110" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.51" y="90.17" rot="MR0"/>
-<element name="LOGO111" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="29.21" y="96.012" rot="MR0"/>
-<element name="LOGO112" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="27.94" y="90.17" rot="MR0"/>
-<element name="LOGO113" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="40.64" y="96.012" rot="MR0"/>
-<element name="LOGO114" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.37" y="90.17" rot="MR0"/>
-<element name="LOGO115" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="52.07" y="96.012" rot="MR0"/>
-<element name="LOGO116" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.8" y="90.17" rot="MR0"/>
-<element name="LOGO117" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="63.5" y="96.012" rot="MR0"/>
-<element name="LOGO118" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="62.23" y="90.17" rot="MR0"/>
-<element name="LOGO119" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.93" y="96.012" rot="MR0"/>
-<element name="LOGO120" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="73.66" y="90.17" rot="MR0"/>
-<element name="LOGO121" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="86.36" y="96.012" rot="MR0"/>
-<element name="LOGO122" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="85.09" y="90.17" rot="MR0"/>
-<element name="LOGO123" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="97.79" y="96.012" rot="MR0"/>
-<element name="LOGO124" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.52" y="90.17" rot="MR0"/>
-<element name="LOGO125" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="109.22" y="96.012" rot="MR0"/>
-<element name="LOGO126" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="107.95" y="90.17" rot="MR0"/>
-<element name="LOGO127" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="113.157" rot="MR0"/>
-<element name="LOGO128" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="107.315" rot="MR0"/>
-<element name="LOGO129" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.78" y="113.157" rot="MR0"/>
-<element name="LOGO130" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.51" y="107.315" rot="MR0"/>
-<element name="LOGO131" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="29.21" y="113.157" rot="MR0"/>
-<element name="LOGO132" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="27.94" y="107.315" rot="MR0"/>
-<element name="LOGO133" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="40.64" y="113.157" rot="MR0"/>
-<element name="LOGO134" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.37" y="107.315" rot="MR0"/>
-<element name="LOGO135" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="52.07" y="113.157" rot="MR0"/>
-<element name="LOGO136" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.8" y="107.315" rot="MR0"/>
-<element name="LOGO137" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="63.5" y="113.157" rot="MR0"/>
-<element name="LOGO138" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="62.23" y="107.315" rot="MR0"/>
-<element name="LOGO139" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.93" y="113.157" rot="MR0"/>
-<element name="LOGO140" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="73.66" y="107.315" rot="MR0"/>
-<element name="LOGO141" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="86.36" y="113.157" rot="MR0"/>
-<element name="LOGO142" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="85.09" y="107.315" rot="MR0"/>
-<element name="LOGO143" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="97.79" y="113.157" rot="MR0"/>
-<element name="LOGO144" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.52" y="107.315" rot="MR0"/>
-<element name="LOGO145" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="109.22" y="113.157" rot="MR0"/>
-<element name="LOGO146" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="107.95" y="107.315" rot="MR0"/>
-<element name="LOGO147" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="130.302" rot="MR0"/>
-<element name="LOGO148" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="124.46" rot="MR0"/>
-<element name="LOGO149" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.78" y="130.302" rot="MR0"/>
-<element name="LOGO150" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.51" y="124.46" rot="MR0"/>
-<element name="LOGO151" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="29.21" y="130.302" rot="MR0"/>
-<element name="LOGO152" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="27.94" y="124.46" rot="MR0"/>
-<element name="LOGO153" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="40.64" y="130.302" rot="MR0"/>
-<element name="LOGO154" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.37" y="124.46" rot="MR0"/>
-<element name="LOGO155" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="52.07" y="130.302" rot="MR0"/>
-<element name="LOGO156" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.8" y="124.46" rot="MR0"/>
-<element name="LOGO157" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="63.5" y="130.302" rot="MR0"/>
-<element name="LOGO158" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="62.23" y="124.46" rot="MR0"/>
-<element name="LOGO159" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.93" y="130.302" rot="MR0"/>
-<element name="LOGO160" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="73.66" y="124.46" rot="MR0"/>
-<element name="LOGO161" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="86.36" y="130.302" rot="MR0"/>
-<element name="LOGO162" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="85.09" y="124.46" rot="MR0"/>
-<element name="LOGO163" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="97.79" y="130.302" rot="MR0"/>
-<element name="LOGO164" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.52" y="124.46" rot="MR0"/>
-<element name="LOGO165" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="109.22" y="130.302" rot="MR0"/>
-<element name="LOGO166" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="107.95" y="124.46" rot="MR0"/>
-<element name="LOGO167" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="147.447" rot="MR0"/>
-<element name="LOGO168" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="141.605" rot="MR0"/>
-<element name="LOGO169" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.78" y="147.447" rot="MR0"/>
-<element name="LOGO170" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.51" y="141.605" rot="MR0"/>
-<element name="LOGO171" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="29.21" y="147.447" rot="MR0"/>
-<element name="LOGO172" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="27.94" y="141.605" rot="MR0"/>
-<element name="LOGO173" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="40.64" y="147.447" rot="MR0"/>
-<element name="LOGO174" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.37" y="141.605" rot="MR0"/>
-<element name="LOGO175" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="52.07" y="147.447" rot="MR0"/>
-<element name="LOGO176" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.8" y="141.605" rot="MR0"/>
-<element name="LOGO177" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="63.5" y="147.447" rot="MR0"/>
-<element name="LOGO178" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="62.23" y="141.605" rot="MR0"/>
-<element name="LOGO179" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.93" y="147.447" rot="MR0"/>
-<element name="LOGO180" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="73.66" y="141.605" rot="MR0"/>
-<element name="LOGO181" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="86.36" y="147.447" rot="MR0"/>
-<element name="LOGO182" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="85.09" y="141.605" rot="MR0"/>
-<element name="LOGO183" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="97.79" y="147.447" rot="MR0"/>
-<element name="LOGO184" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.52" y="141.605" rot="MR0"/>
-<element name="LOGO185" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="109.22" y="147.447" rot="MR0"/>
-<element name="LOGO186" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="107.95" y="141.605" rot="MR0"/>
-<element name="LOGO187" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="164.592" rot="MR0"/>
-<element name="LOGO188" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="158.75" rot="MR0"/>
-<element name="LOGO189" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.78" y="164.592" rot="MR0"/>
-<element name="LOGO190" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.51" y="158.75" rot="MR0"/>
-<element name="LOGO191" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="29.21" y="164.592" rot="MR0"/>
-<element name="LOGO192" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="27.94" y="158.75" rot="MR0"/>
-<element name="LOGO193" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="40.64" y="164.592" rot="MR0"/>
-<element name="LOGO194" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.37" y="158.75" rot="MR0"/>
-<element name="LOGO195" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="52.07" y="164.592" rot="MR0"/>
-<element name="LOGO196" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.8" y="158.75" rot="MR0"/>
-<element name="LOGO197" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="63.5" y="164.592" rot="MR0"/>
-<element name="LOGO198" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="62.23" y="158.75" rot="MR0"/>
-<element name="LOGO199" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.93" y="164.592" rot="MR0"/>
-<element name="LOGO200" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="73.66" y="158.75" rot="MR0"/>
+<element name="U$89" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="53.34" y="153.162">
+<attribute name="PROD_ID" value="PCB-12193" x="53.34" y="153.162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$90" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="32.004" y="153.162">
+<attribute name="PROD_ID" value="PCB-12193" x="32.004" y="153.162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$91" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="96.012" y="17.018">
+<attribute name="PROD_ID" value="PCB-12193" x="96.012" y="17.018" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$92" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="85.344" y="17.018">
+<attribute name="PROD_ID" value="PCB-12193" x="85.344" y="17.018" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$93" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="74.676" y="17.018">
+<attribute name="PROD_ID" value="PCB-12193" x="74.676" y="17.018" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$94" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="64.008" y="17.018">
+<attribute name="PROD_ID" value="PCB-12193" x="64.008" y="17.018" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$95" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="53.34" y="17.018">
+<attribute name="PROD_ID" value="PCB-12193" x="53.34" y="17.018" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$96" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="42.672" y="17.018">
+<attribute name="PROD_ID" value="PCB-12193" x="42.672" y="17.018" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$97" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="32.004" y="17.018">
+<attribute name="PROD_ID" value="PCB-12193" x="32.004" y="17.018" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$98" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="21.336" y="17.018">
+<attribute name="PROD_ID" value="PCB-12193" x="21.336" y="17.018" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$99" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="10.668" y="17.018">
+<attribute name="PROD_ID" value="PCB-12193" x="10.668" y="17.018" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$100" library="Local Library" package="ALPHABET_BOARD" value="ALPHABET" x="0" y="17.018">
+<attribute name="PROD_ID" value="PCB-12193" x="0" y="17.018" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="LOGO26" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="27.305" rot="MR0"/>
+<element name="LOGO27" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="21.463" rot="MR0"/>
+<element name="LOGO28" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="27.305" rot="MR0"/>
+<element name="LOGO29" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="15.748" y="21.463" rot="MR0"/>
+<element name="LOGO30" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="27.686" y="27.305" rot="MR0"/>
+<element name="LOGO31" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="26.416" y="21.463" rot="MR0"/>
+<element name="LOGO32" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.354" y="27.305" rot="MR0"/>
+<element name="LOGO33" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="37.084" y="21.463" rot="MR0"/>
+<element name="LOGO34" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.022" y="27.305" rot="MR0"/>
+<element name="LOGO35" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="47.752" y="21.463" rot="MR0"/>
+<element name="LOGO36" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="59.69" y="27.305" rot="MR0"/>
+<element name="LOGO37" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="58.42" y="21.463" rot="MR0"/>
+<element name="LOGO38" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="70.358" y="27.305" rot="MR0"/>
+<element name="LOGO39" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="69.088" y="21.463" rot="MR0"/>
+<element name="LOGO40" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="81.026" y="27.305" rot="MR0"/>
+<element name="LOGO41" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="79.756" y="21.463" rot="MR0"/>
+<element name="LOGO42" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="91.694" y="27.305" rot="MR0"/>
+<element name="LOGO43" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="21.463" rot="MR0"/>
+<element name="LOGO44" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="102.362" y="27.305" rot="MR0"/>
+<element name="LOGO45" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="101.092" y="21.463" rot="MR0"/>
+<element name="LOGO46" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="44.323" rot="MR0"/>
+<element name="LOGO47" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="38.481" rot="MR0"/>
+<element name="LOGO48" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="44.323" rot="MR0"/>
+<element name="LOGO50" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="15.748" y="38.481" rot="MR0"/>
+<element name="LOGO51" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="27.686" y="44.323" rot="MR0"/>
+<element name="LOGO52" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="26.416" y="38.481" rot="MR0"/>
+<element name="LOGO53" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.354" y="44.323" rot="MR0"/>
+<element name="LOGO54" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="37.084" y="38.481" rot="MR0"/>
+<element name="LOGO55" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.022" y="44.323" rot="MR0"/>
+<element name="LOGO56" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="47.752" y="38.481" rot="MR0"/>
+<element name="LOGO57" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="59.69" y="44.323" rot="MR0"/>
+<element name="LOGO58" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="58.42" y="38.481" rot="MR0"/>
+<element name="LOGO59" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="70.358" y="44.323" rot="MR0"/>
+<element name="LOGO60" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="69.088" y="38.481" rot="MR0"/>
+<element name="LOGO61" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="81.026" y="44.323" rot="MR0"/>
+<element name="LOGO62" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="79.756" y="38.481" rot="MR0"/>
+<element name="LOGO63" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="91.694" y="44.323" rot="MR0"/>
+<element name="LOGO64" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="38.481" rot="MR0"/>
+<element name="LOGO65" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="102.362" y="44.323" rot="MR0"/>
+<element name="LOGO66" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="101.092" y="38.481" rot="MR0"/>
+<element name="LOGO67" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="61.341" rot="MR0"/>
+<element name="LOGO68" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="55.499" rot="MR0"/>
+<element name="LOGO69" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="61.341" rot="MR0"/>
+<element name="LOGO70" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="15.748" y="55.499" rot="MR0"/>
+<element name="LOGO71" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="27.686" y="61.341" rot="MR0"/>
+<element name="LOGO72" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="26.416" y="55.499" rot="MR0"/>
+<element name="LOGO73" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.354" y="61.341" rot="MR0"/>
+<element name="LOGO74" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="37.084" y="55.499" rot="MR0"/>
+<element name="LOGO75" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.022" y="61.341" rot="MR0"/>
+<element name="LOGO76" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="47.752" y="55.499" rot="MR0"/>
+<element name="LOGO77" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="59.69" y="61.341" rot="MR0"/>
+<element name="LOGO78" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="58.42" y="55.499" rot="MR0"/>
+<element name="LOGO79" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="70.358" y="61.341" rot="MR0"/>
+<element name="LOGO80" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="69.088" y="55.499" rot="MR0"/>
+<element name="LOGO81" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="81.026" y="61.341" rot="MR0"/>
+<element name="LOGO82" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="79.756" y="55.499" rot="MR0"/>
+<element name="LOGO83" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="91.694" y="61.341" rot="MR0"/>
+<element name="LOGO84" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="55.499" rot="MR0"/>
+<element name="LOGO85" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="102.362" y="61.341" rot="MR0"/>
+<element name="LOGO86" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="101.092" y="55.499" rot="MR0"/>
+<element name="LOGO87" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="78.359" rot="MR0"/>
+<element name="LOGO88" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="72.517" rot="MR0"/>
+<element name="LOGO89" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="78.359" rot="MR0"/>
+<element name="LOGO90" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="15.748" y="72.517" rot="MR0"/>
+<element name="LOGO91" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="27.686" y="78.359" rot="MR0"/>
+<element name="LOGO92" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="26.416" y="72.517" rot="MR0"/>
+<element name="LOGO93" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.354" y="78.359" rot="MR0"/>
+<element name="LOGO94" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="37.084" y="72.517" rot="MR0"/>
+<element name="LOGO95" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.022" y="78.359" rot="MR0"/>
+<element name="LOGO96" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="47.752" y="72.517" rot="MR0"/>
+<element name="LOGO97" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="59.69" y="78.359" rot="MR0"/>
+<element name="LOGO98" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="58.42" y="72.517" rot="MR0"/>
+<element name="LOGO99" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="70.358" y="78.359" rot="MR0"/>
+<element name="LOGO100" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="69.088" y="72.517" rot="MR0"/>
+<element name="LOGO101" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="81.026" y="78.359" rot="MR0"/>
+<element name="LOGO102" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="79.756" y="72.517" rot="MR0"/>
+<element name="LOGO103" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="91.694" y="78.359" rot="MR0"/>
+<element name="LOGO104" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="72.517" rot="MR0"/>
+<element name="LOGO105" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="102.362" y="78.359" rot="MR0"/>
+<element name="LOGO106" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="101.092" y="72.517" rot="MR0"/>
+<element name="LOGO107" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="95.377" rot="MR0"/>
+<element name="LOGO108" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="89.535" rot="MR0"/>
+<element name="LOGO109" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="95.377" rot="MR0"/>
+<element name="LOGO110" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="15.748" y="89.535" rot="MR0"/>
+<element name="LOGO111" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="27.686" y="95.377" rot="MR0"/>
+<element name="LOGO112" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="26.416" y="89.535" rot="MR0"/>
+<element name="LOGO113" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.354" y="95.377" rot="MR0"/>
+<element name="LOGO114" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="37.084" y="89.535" rot="MR0"/>
+<element name="LOGO115" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.022" y="95.377" rot="MR0"/>
+<element name="LOGO116" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="47.752" y="89.535" rot="MR0"/>
+<element name="LOGO117" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="59.69" y="95.377" rot="MR0"/>
+<element name="LOGO118" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="58.42" y="89.535" rot="MR0"/>
+<element name="LOGO119" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="70.358" y="95.377" rot="MR0"/>
+<element name="LOGO120" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="69.088" y="89.535" rot="MR0"/>
+<element name="LOGO121" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="81.026" y="95.377" rot="MR0"/>
+<element name="LOGO122" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="79.756" y="89.535" rot="MR0"/>
+<element name="LOGO123" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="91.694" y="95.377" rot="MR0"/>
+<element name="LOGO124" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="89.535" rot="MR0"/>
+<element name="LOGO125" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="102.362" y="95.377" rot="MR0"/>
+<element name="LOGO126" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="101.092" y="89.535" rot="MR0"/>
+<element name="LOGO127" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="112.395" rot="MR0"/>
+<element name="LOGO128" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="106.553" rot="MR0"/>
+<element name="LOGO129" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="112.395" rot="MR0"/>
+<element name="LOGO130" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="15.748" y="106.553" rot="MR0"/>
+<element name="LOGO131" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="27.686" y="112.395" rot="MR0"/>
+<element name="LOGO132" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="26.416" y="106.553" rot="MR0"/>
+<element name="LOGO133" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.354" y="112.395" rot="MR0"/>
+<element name="LOGO134" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="37.084" y="106.553" rot="MR0"/>
+<element name="LOGO135" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.022" y="112.395" rot="MR0"/>
+<element name="LOGO136" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="47.752" y="106.553" rot="MR0"/>
+<element name="LOGO137" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="59.69" y="112.395" rot="MR0"/>
+<element name="LOGO138" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="58.42" y="106.553" rot="MR0"/>
+<element name="LOGO139" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="70.358" y="112.395" rot="MR0"/>
+<element name="LOGO140" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="69.088" y="106.553" rot="MR0"/>
+<element name="LOGO141" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="81.026" y="112.395" rot="MR0"/>
+<element name="LOGO142" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="79.756" y="106.553" rot="MR0"/>
+<element name="LOGO143" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="91.694" y="112.395" rot="MR0"/>
+<element name="LOGO144" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="106.553" rot="MR0"/>
+<element name="LOGO145" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="102.362" y="112.395" rot="MR0"/>
+<element name="LOGO146" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="101.092" y="106.553" rot="MR0"/>
+<element name="LOGO147" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="129.413" rot="MR0"/>
+<element name="LOGO148" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="123.571" rot="MR0"/>
+<element name="LOGO149" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="129.413" rot="MR0"/>
+<element name="LOGO150" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="15.748" y="123.571" rot="MR0"/>
+<element name="LOGO151" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="27.686" y="129.413" rot="MR0"/>
+<element name="LOGO152" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="26.416" y="123.571" rot="MR0"/>
+<element name="LOGO153" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.354" y="129.413" rot="MR0"/>
+<element name="LOGO154" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="37.084" y="123.571" rot="MR0"/>
+<element name="LOGO155" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.022" y="129.413" rot="MR0"/>
+<element name="LOGO156" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="47.752" y="123.571" rot="MR0"/>
+<element name="LOGO157" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="59.69" y="129.413" rot="MR0"/>
+<element name="LOGO158" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="58.42" y="123.571" rot="MR0"/>
+<element name="LOGO159" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="70.358" y="129.413" rot="MR0"/>
+<element name="LOGO160" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="69.088" y="123.571" rot="MR0"/>
+<element name="LOGO161" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="81.026" y="129.413" rot="MR0"/>
+<element name="LOGO162" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="79.756" y="123.571" rot="MR0"/>
+<element name="LOGO163" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="91.694" y="129.413" rot="MR0"/>
+<element name="LOGO164" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="123.571" rot="MR0"/>
+<element name="LOGO165" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="102.362" y="129.413" rot="MR0"/>
+<element name="LOGO166" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="101.092" y="123.571" rot="MR0"/>
+<element name="LOGO167" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="146.431" rot="MR0"/>
+<element name="LOGO168" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="140.589" rot="MR0"/>
+<element name="LOGO169" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="146.431" rot="MR0"/>
+<element name="LOGO170" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="15.748" y="140.589" rot="MR0"/>
+<element name="LOGO171" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="27.686" y="146.431" rot="MR0"/>
+<element name="LOGO172" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="26.416" y="140.589" rot="MR0"/>
+<element name="LOGO173" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.354" y="146.431" rot="MR0"/>
+<element name="LOGO174" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="37.084" y="140.589" rot="MR0"/>
+<element name="LOGO175" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.022" y="146.431" rot="MR0"/>
+<element name="LOGO176" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="47.752" y="140.589" rot="MR0"/>
+<element name="LOGO177" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="59.69" y="146.431" rot="MR0"/>
+<element name="LOGO178" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="58.42" y="140.589" rot="MR0"/>
+<element name="LOGO179" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="70.358" y="146.431" rot="MR0"/>
+<element name="LOGO180" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="69.088" y="140.589" rot="MR0"/>
+<element name="LOGO181" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="81.026" y="146.431" rot="MR0"/>
+<element name="LOGO182" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="79.756" y="140.589" rot="MR0"/>
+<element name="LOGO183" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="91.694" y="146.431" rot="MR0"/>
+<element name="LOGO184" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="140.589" rot="MR0"/>
+<element name="LOGO185" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="102.362" y="146.431" rot="MR0"/>
+<element name="LOGO186" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="101.092" y="140.589" rot="MR0"/>
+<element name="LOGO187" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="163.449" rot="MR0"/>
+<element name="LOGO188" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.08" y="157.607" rot="MR0"/>
+<element name="LOGO189" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="163.449" rot="MR0"/>
+<element name="LOGO190" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="15.748" y="157.607" rot="MR0"/>
+<element name="LOGO191" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="27.686" y="163.449" rot="MR0"/>
+<element name="LOGO192" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="26.416" y="157.607" rot="MR0"/>
+<element name="LOGO193" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.354" y="163.449" rot="MR0"/>
+<element name="LOGO194" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="37.084" y="157.607" rot="MR0"/>
+<element name="LOGO195" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.022" y="163.449" rot="MR0"/>
+<element name="LOGO196" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="47.752" y="157.607" rot="MR0"/>
+<element name="LOGO197" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="59.69" y="163.449" rot="MR0"/>
+<element name="LOGO198" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="58.42" y="157.607" rot="MR0"/>
+<element name="LOGO199" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="70.358" y="163.449" rot="MR0"/>
+<element name="LOGO200" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="69.088" y="157.607" rot="MR0"/>
 </elements>
 <signals>
 </signals>
